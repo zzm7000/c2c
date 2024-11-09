@@ -3,7 +3,7 @@
 
 $body-background: $cod-grey !default;
 $body-foreground: $gallery !default;
-$header: $conifer !default;
+$header: $nucolor !default;
 $blockquote-color: $silver-chalice !default;
 $blockquote-border: $dove-grey !default;
 $container-max-width: 1000px;
@@ -34,11 +34,11 @@ body {
 
 .container #pagelink {
   font-size: 18px;
-  line-height: 1.5;
-  margin: 0 0 0 40px;
+  line-height: 1;
+  margin: 0px 0px 0px 30px;
   font-weight: bold;
   font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
-  color: $conifer;//$header;
+  color: $nucolor;//$header;
   text-decoration: none;
   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1),
                0 0 5px rgba(181, 232, 83, 0.1),
@@ -51,12 +51,12 @@ body {
 }
 
 .container #a-title {
-  font-size: 30px;
-  line-height: 1.5;
+  font-size: 35px;
+  line-height: 1;
   margin: 0 0 0 0px;
   font-weight: bold;
   font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
-  color: $conifer;//$header;
+  color: $nucolor;//$header;
   text-decoration: none;
   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1),
                0 0 5px rgba(181, 232, 83, 0.1),
@@ -66,6 +66,12 @@ body {
   @include media-max-width($container-max-width) {
     margin-left: 0;
   }
+}
+
+.container #logo {
+  width: auto;
+  max-height: 40px;
+  margin: 0px 0px 0px 10px;
 }
 
 section {
@@ -90,7 +96,7 @@ li {
 header {
   background: rgba(0, 0, 0, 0.1);
   width: 100%;
-  border-bottom: 1px dashed $conifer; //header;
+  border-bottom: 1px dashed $nucolor; //header;
   padding: 20px 0;
   margin: 0 0 40px 0;
 }
@@ -111,7 +117,6 @@ header h1 {
     margin-left: 0;
   }
 }
-
 
 header h1:before {
   content: "./ ";
@@ -149,8 +154,16 @@ header h2 {
   width: 100%;
   -webkit-font-smoothing: antialiased;
 }
+
 section img {
   max-width: 100%
+}
+
+#c-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -190,6 +203,13 @@ h1, h2, h3, h4, h5, h6 {
   text-transform: uppercase;
   color: #999;
   margin: 0 0 5px 0;
+}
+
+#main_content img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 
 dt {
