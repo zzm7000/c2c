@@ -2,7 +2,7 @@
 layout: default
 ---
 
-The Country to Country CTF (C2C CTF) Cybersecurity Challenge is a five year series of international CTF competitions organized by INCS-CoE with leading international universities.
+The Country to Country CTF (C2C CTF) Cybersecurity Challenge is a series of international CTF competitions organized by INCS-CoE with leading international universities.
 
 The inaugural competition hosted by Royal Holloway University in 2020 boasted 150 students from across Australia, Israel, Japan, UK and US. The students represented different universities, genders, skill levels, and background. To foster networking, students are organized into collaborative teams with a diverse makeup of students from different backgrounds and different countries.
 
